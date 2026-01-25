@@ -15,6 +15,7 @@ package-lock.json
 # Output (keep folder, ignore contents)
 output/*
 !output/.gitkeep
+!output/*.html
 
 # Temp
 *.tmp

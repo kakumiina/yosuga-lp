@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="株式会社YOSUGA リスキリング・DX推進プログラム。動画編集、YouTube運用、ChatGPT活用など、明日から使えるスキルを習得。中小企業のDX化を全力サポート。">
+  <title>リスキリング・DX推進プログラム | 株式会社YOSUGA</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'sans-serif'],
+          },
+          colors: {
+            primary: '#7C3AED',
+            primaryHover: '#9333EA',
+            secondary: '#1A1A2E',
+            accent: {
+              start: '#FF6B35',
+              end: '#FCD34D',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', sans-serif;
+    }
+  </style>
+</head>
+<body class="text-gray-800 bg-gray-50">
+
+  <!-- ヘッダー -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center max-w-6xl">
+      <h1 class="text-xl md:text-2xl font-bold" style="color: #7C3AED;">株式会社YOSUGA</h1>
+      <a href="http://www.yosuga.biz" class="font-bold py-2 px-6 rounded-lg transition-all text-sm md:text-base text-white hover:-translate-y-0.5" style="background-color: #7C3AED;" target="_blank" rel="noopener">
+        公式サイト
+      </a>
+    </div>
+  </header>
+
+  <!-- ファーストビュー（ダーク背景） -->
+  <section class="relative py-16 md:py-24 overflow-hidden" style="background: linear-gradient(135deg, #1A1A2E 0%, #2D2D44 100%);">
+    <div class="container mx-auto px-4 max-w-5xl">
+
+      <!-- 実績バッジ（オレンジ→黄グラデーション） -->
+      <div class="flex flex-wrap justify-center gap-3 mb-8">
+        <div class="font-bold px-4 py-2 rounded-lg shadow-lg text-sm text-gray-900" style="background: linear-gradient(135deg, #FF6B35 0%, #FCD34D 100%);">
+          📹 映像制作実績多数
+        </div>
+        <div class="font-bold px-4 py-2 rounded-lg shadow-lg text-sm text-gray-900" style="background: linear-gradient(135deg, #FF6B35 0%, #FCD34D 100%);">
+          🎓 充実のサポート体制
+        </div>
+        <div class="font-bold px-4 py-2 rounded-lg shadow-lg text-sm text-gray-900" style="background: linear-gradient(135deg, #FF6B35 0%, #FCD34D 100%);">
+          🏢 中小企業DX支援
+        </div>
+      </div>
+
+      <!-- メインキャッチ -->
+      <div class="text-center mb-8">
+        <p class="font-bold text-sm md:text-base mb-3" style="color: #FCD34D;">名古屋発・映像制作のプロが教える</p>
+        <h2 class="text-3xl md:text-5xl font-black leading-tight mb-6 text-white">
+          <span>「わからない」を</span><br>
+          <span class="text-transparent bg-clip-text" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%); -webkit-background-clip: text;">武器に変える</span>
+        </h2>
+        <p class="text-lg md:text-xl font-medium mb-4 text-gray-100">
+          リスキリング・DX推進プログラム
+        </p>
+        <p class="text-base md:text-lg text-gray-300">
+          動画編集、SNS運用、AI活用。<br class="md:hidden">明日から使えるスキルを、手厚いサポートで習得。
+        </p>
+      </div>
+
+      <!-- CTAボタン（紫） -->
+      <div class="text-center mb-12">
+        <a href="http://www.yosuga.biz" class="inline-block text-white font-bold text-lg md:text-xl py-5 px-10 rounded-xl shadow-2xl hover:-translate-y-1 hover:shadow-3xl transition-all duration-200" style="background: linear-gradient(180deg, #9333EA 0%, #7C3AED 100%);" target="_blank" rel="noopener">
+          お問い合わせはこちらから
+        </a>
+      </div>
+
+      <!-- メインビジュアル -->
+      <div class="max-w-3xl mx-auto">
+        <div class="bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl shadow-xl aspect-video flex items-center justify-center border-2" style="border-color: #7C3AED;">
+          <p class="text-gray-400 text-sm">※ここにメインビジュアル画像を配置</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- お悩みセクション -->
+  <section class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-2xl md:text-4xl font-bold text-center mb-12">
+        こんな<span style="color: #7C3AED;">お悩み</span>ありませんか？
+      </h2>
+
+      <div class="space-y-4 mb-8">
+        <div class="flex items-start gap-4 p-5 rounded-lg" style="background-color: #FEF3F2; border-left: 4px solid #EF4444;">
+          <span class="text-2xl flex-shrink-0">❌</span>
+          <p class="text-gray-800 font-medium">SNSや動画マーケティングを始めたいが、何から手をつけていいかわからない</p>
+        </div>
+
+        <div class="flex items-start gap-4 p-5 rounded-lg" style="background-color: #FEF3F2; border-left: 4px solid #EF4444;">
+          <span class="text-2xl flex-shrink-0">❌</span>
+          <p class="text-gray-800 font-medium">外注コストが高すぎて、内製化したいが社内にスキルがない</p>
+        </div>
+
+        <div class="flex items-start gap-4 p-5 rounded-lg" style="background-color: #FEF3F2; border-left: 4px solid #EF4444;">
+          <span class="text-2xl flex-shrink-0">❌</span>
+          <p class="text-gray-800 font-medium">DX推進と言われても、何をどう進めればいいのか見当もつかない</p>
+        </div>
+
+        <div class="flex items-start gap-4 p-5 rounded-lg" style="background-color: #FEF3F2; border-left: 4px solid #EF4444;">
+          <span class="text-2xl flex-shrink-0">❌</span>
+          <p class="text-gray-800 font-medium">社員のスキルアップをしたいが、教育体制が整っていない</p>
+        </div>
+
+        <div class="flex items-start gap-4 p-5 rounded-lg" style="background-color: #FEF3F2; border-left: 4px solid #EF4444;">
+          <span class="text-2xl flex-shrink-0">❌</span>
+          <p class="text-gray-800 font-medium">動画編集やSNS運用を学びたいが、途中で挫折しそうで不安</p>
+        </div>
+      </div>
+
+      <div class="text-center rounded-xl p-8 border-2" style="background: linear-gradient(135deg, #FAF5FF 0%, #FEF3F2 100%); border-color: #7C3AED;">
+        <p class="text-xl md:text-2xl font-bold text-gray-900">
+          そのお悩み、<span style="color: #7C3AED;">すべて解決</span>できます！
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- サービスコンセプト -->
+  <section class="py-16 md:py-20" style="background: linear-gradient(135deg, #FAF5FF 0%, #FFFBEB 100%);">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="text-center mb-12">
+        <p class="font-bold text-sm md:text-base mb-3" style="color: #7C3AED;">YOSUGA DX Program</p>
+        <h2 class="text-2xl md:text-4xl font-bold mb-6">
+          <span class="text-transparent bg-clip-text" style="background: linear-gradient(135deg, #FF6B35 0%, #FCD34D 100%); -webkit-background-clip: text;">明日から使える</span>スキルを
+        </h2>
+        <p class="text-base md:text-lg text-gray-700 leading-relaxed">
+          映像制作・編集のプロフェッショナル集団である株式会社YOSUGAが、<br class="hidden md:block">
+          長年培ったノウハウを凝縮。「わかりやすい」「すぐ使える」「挫折しない」を<br class="hidden md:block">
+          徹底追求したプログラムで、あなたの会社のDX化を全力でサポートします。
+        </p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+        <div class="grid md:grid-cols-3 gap-6 text-center">
+          <div>
+            <div class="text-4xl md:text-5xl font-black mb-2" style="color: #7C3AED;">01</div>
+            <h3 class="text-lg md:text-xl font-bold mb-3">実践重視</h3>
+            <p class="text-sm md:text-base text-gray-600">
+              理論だけでなく、実際の制作物を作りながら学ぶ実践型カリキュラム
+            </p>
+          </div>
+
+          <div>
+            <div class="text-4xl md:text-5xl font-black mb-2" style="color: #7C3AED;">02</div>
+            <h3 class="text-lg md:text-xl font-bold mb-3">手厚いサポート</h3>
+            <p class="text-sm md:text-base text-gray-600">
+              わからないことはいつでも質問OK。映像編集のプロが丁寧にサポート
+            </p>
+          </div>
+
+          <div>
+            <div class="text-4xl md:text-5xl font-black mb-2" style="color: #7C3AED;">03</div>
+            <h3 class="text-lg md:text-xl font-bold mb-3">継続できる</h3>
+            <p class="text-sm md:text-base text-gray-600">
+              月額定額制で、自分のペースで学習。忙しい方でも安心して続けられる
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 講座一覧 -->
+  <section class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <h2 class="text-2xl md:text-4xl font-bold text-center mb-4">
+        <span style="color: #7C3AED;">講座</span>ラインナップ
+      </h2>
+      <p class="text-center text-gray-600 mb-12">ビジネスに直結する5つのプログラム</p>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- 動画編集講座 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow p-6 border border-gray-100">
+          <div class="text-4xl mb-4">🎬</div>
+          <h3 class="text-xl font-bold mb-3">動画編集講座</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Premiere Pro基礎から実践まで。企業PVやプロモーション動画を自社で制作できるスキルを習得。
+          </p>
+          <div class="border-t pt-4">
+            <p class="text-2xl font-bold" style="color: #7C3AED;">¥26,400<span class="text-sm text-gray-500 font-normal">/月</span></p>
+            <p class="text-xs text-gray-500 mt-1">（税込）</p>
+          </div>
+        </div>
+
+        <!-- YouTube運用講座 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow p-6 border border-gray-100">
+          <div class="text-4xl mb-4">📺</div>
+          <h3 class="text-xl font-bold mb-3">YouTube運用講座</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            チャンネル開設から動画投稿、分析まで。自社チャンネルで集客・ブランディングを実現。
+          </p>
+          <div class="border-t pt-4">
+            <p class="text-2xl font-bold" style="color: #7C3AED;">¥26,400<span class="text-sm text-gray-500 font-normal">/月</span></p>
+            <p class="text-xs text-gray-500 mt-1">（税込）</p>
+          </div>
+        </div>
+
+        <!-- ChatGPT活用講座 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow p-6 border border-gray-100">
+          <div class="text-4xl mb-4">🤖</div>
+          <h3 class="text-xl font-bold mb-3">ChatGPT活用講座</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            業務効率化の切り札。文章作成、アイデア出し、リサーチなど、AIを実務で使いこなす。
+          </p>
+          <div class="border-t pt-4">
+            <p class="text-2xl font-bold" style="color: #7C3AED;">¥26,400<span class="text-sm text-gray-500 font-normal">/月</span></p>
+            <p class="text-xs text-gray-500 mt-1">（税込）</p>
+          </div>
+        </div>
+
+        <!-- Canvaデザイン講座 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow p-6 border border-gray-100">
+          <div class="text-4xl mb-4">🎨</div>
+          <h3 class="text-xl font-bold mb-3">Canvaデザイン講座</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            デザイン未経験でもOK。チラシ、SNS投稿、プレゼン資料など、プロ級のデザインを作成。
+          </p>
+          <div class="border-t pt-4">
+            <p class="text-2xl font-bold" style="color: #7C3AED;">¥26,400<span class="text-sm text-gray-500 font-normal">/月</span></p>
+            <p class="text-xs text-gray-500 mt-1">（税込）</p>
+          </div>
+        </div>
+
+        <!-- Instagram運用講座 -->
+        <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow p-6 border border-gray-100">
+          <div class="text-4xl mb-4">📸</div>
+          <h3 class="text-xl font-bold mb-3">Instagram運用講座</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            投稿戦略からリール動画作成、フォロワー増加施策まで。SNSマーケティングの基礎を習得。
+          </p>
+          <div class="border-t pt-4">
+            <p class="text-2xl font-bold" style="color: #7C3AED;">¥26,400<span class="text-sm text-gray-500 font-normal">/月</span></p>
+            <p class="text-xs text-gray-500 mt-1">（税込）</p>
+          </div>
+        </div>
+
+        <!-- 複数受講割引カード -->
+        <div class="rounded-xl shadow-lg p-6 border-2 flex flex-col justify-center" style="background: linear-gradient(135deg, #FEF3C7 0%, #FECACA 100%); border-color: #F59E0B;">
+          <div class="text-4xl mb-4 text-center">🎁</div>
+          <h3 class="text-xl font-bold mb-3 text-center">複数受講で<br>さらにお得！</h3>
+          <p class="text-sm text-gray-700 text-center">
+            2講座以上同時受講で<br>特別割引あり
+          </p>
+          <div class="text-center mt-4">
+            <a href="http://www.yosuga.biz" class="font-bold underline hover:opacity-80" style="color: #7C3AED;" target="_blank" rel="noopener">お問い合わせ →</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA -->
+      <div class="text-center mt-12">
+        <a href="http://www.yosuga.biz" class="inline-block text-white font-bold text-lg md:text-xl py-5 px-10 rounded-xl shadow-2xl hover:-translate-y-1 hover:shadow-3xl transition-all duration-200" style="background: linear-gradient(180deg, #9333EA 0%, #7C3AED 100%);" target="_blank" rel="noopener">
+          お問い合わせはこちらから
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 選ばれる4つの理由 -->
+  <section class="py-16 md:py-20" style="background: linear-gradient(135deg, #F9FAFB 0%, #FAF5FF 100%);">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <h2 class="text-2xl md:text-4xl font-bold text-center mb-12">
+        YOSUGAが<span style="color: #7C3AED;">選ばれる</span><span class="text-5xl" style="color: #7C3AED;">4</span>つの理由
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-8">
+
+        <!-- 理由1 -->
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="text-white font-black text-2xl w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+              01
+            </div>
+            <h3 class="text-xl md:text-2xl font-bold">即戦力のスキルが身につく</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            「明日から使える」を徹底追求したカリキュラム。理論だけでなく、実際の案件で使える実践的なスキルを習得できます。映像制作のプロが作った教材で、無駄なく効率的に学べます。
+          </p>
+        </div>
+
+        <!-- 理由2 -->
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="text-white font-black text-2xl w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+              02
+            </div>
+            <h3 class="text-xl md:text-2xl font-bold">手厚いサポート体制</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            わからないことはいつでも質問OK。映像編集のプロフェッショナルが、一人ひとりに寄り添って丁寧にサポート。挫折させない仕組みで、最後まで安心して学習を続けられます。
+          </p>
+        </div>
+
+        <!-- 理由3 -->
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="text-white font-black text-2xl w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+              03
+            </div>
+            <h3 class="text-xl md:text-2xl font-bold">月額定額で安心</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            高額な一括払いは不要。月額26,400円（税込）の定額制で、自分のペースで学べます。忙しい経営者や担当者でも、無理なく続けられる料金設定です。
+          </p>
+        </div>
+
+        <!-- 理由4 -->
+        <div class="bg-white rounded-xl shadow-lg p-8">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="text-white font-black text-2xl w-16 h-16 rounded-full flex items-center justify-center flex-shrink-0" style="background: linear-gradient(135deg, #7C3AED 0%, #EC4899 100%);">
+              04
+            </div>
+            <h3 class="text-xl md:text-2xl font-bold">内製化でコスト削減</h3>
+          </div>
+          <p class="text-gray-700 leading-relaxed">
+            外注に頼っていた動画制作やSNS運用を、社内で完結できるように。長期的に見れば大幅なコスト削減につながり、さらに社員のスキルアップで会社全体の成長を実現できます。
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- お客様の声 -->
+  <section class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-5xl">
+      <h2 class="text-2xl md:text-4xl font-bold text-center mb-12">
+        お客様の<span style="color: #7C3AED;">声</span>
+      </h2>
+
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <!-- 声1 -->
+        <div class="bg-gray-50 rounded-xl shadow-lg p-6">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center text-2xl flex-shrink-0">
+              👤
+            </div>
+            <div>
+              <p class="font-bold text-gray-900">A社 代表取締役</p>
+              <p class="text-sm text-gray-600">製造業</p>
+            </div>
+          </div>
+          <div class="rounded-lg px-4 py-2 mb-4 inline-block" style="background-color: #F3E8FF;">
+            <p class="text-sm font-bold" style="color: #7C3AED;">動画編集講座を受講</p>
+          </div>
+          <blockquote class="text-gray-700 text-sm leading-relaxed">
+            「未経験からスタートしましたが、3ヶ月で自社の企業PVを制作できるまでになりました。外注していた動画制作を内製化でき、年間100万円以上のコスト削減に成功しています。」
+          </blockquote>
+        </div>
+
+        <!-- 声2 -->
+        <div class="bg-gray-50 rounded-xl shadow-lg p-6">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center text-2xl flex-shrink-0">
+              👤
+            </div>
+            <div>
+              <p class="font-bold text-gray-900">B社 マーケティング部</p>
+              <p class="text-sm text-gray-600">IT企業</p>
+            </div>
+          </div>
+          <div class="rounded-lg px-4 py-2 mb-4 inline-block" style="background-color: #F3E8FF;">
+            <p class="text-sm font-bold" style="color: #7C3AED;">YouTube + Instagram講座</p>
+          </div>
+          <blockquote class="text-gray-700 text-sm leading-relaxed">
+            「SNS運用を本格的に始めたくて受講。実践的なノウハウのおかげで、YouTubeチャンネルが3ヶ月で登録者1,000人突破！問い合わせも増えて、投資以上の効果を実感しています。」
+          </blockquote>
+        </div>
+
+        <!-- 声3 -->
+        <div class="bg-gray-50 rounded-xl shadow-lg p-6">
+          <div class="flex items-center gap-4 mb-4">
+            <div class="w-16 h-16 bg-gray-300 rounded-full flex items-center justify-center text-2xl flex-shrink-0">
+              👤
+            </div>
+            <div>
+              <p class="font-bold text-gray-900">C社 総務部長</p>
+              <p class="text-sm text-gray-600">サービス業</p>
+            </div>
+          </div>
+          <div class="rounded-lg px-4 py-2 mb-4 inline-block" style="background-color: #F3E8FF;">
+            <p class="text-sm font-bold" style="color: #7C3AED;">ChatGPT + Canva講座</p>
+          </div>
+          <blockquote class="text-gray-700 text-sm leading-relaxed">
+            「社員のリスキリングとして導入。AIとデザインツールを使いこなせるようになり、資料作成の時間が半分に。チーム全体の生産性が大幅に向上しました。サポートも手厚くて安心です。」
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 想いセクション -->
+  <section class="py-16 md:py-20" style="background: linear-gradient(135deg, #FAF5FF 0%, #FFFBEB 100%);">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <div class="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+        <h2 class="text-2xl md:text-3xl font-bold text-center mb-8">
+          私たちの<span style="color: #7C3AED;">想い</span>
+        </h2>
+
+        <div class="prose prose-lg max-w-none">
+          <p class="text-gray-700 leading-relaxed mb-6">
+            株式会社YOSUGAは、名古屋を拠点に映像制作・編集を手がけてきました。<br>
+            数多くのクライアント様と向き合う中で、<strong style="color: #7C3AED;">「自社でできるようになりたい」</strong>という声を数多くいただいてきました。
+          </p>
+
+          <p class="text-gray-700 leading-relaxed mb-6">
+            外注コストの削減はもちろん、社内にスキルを蓄積することで、<br>
+            <strong style="color: #7C3AED;">スピーディーな対応</strong>や<strong style="color: #7C3AED;">柔軟な企画変更</strong>が可能になります。<br>
+            そして何より、<strong style="color: #7C3AED;">社員の成長</strong>が会社の大きな財産になります。
+          </p>
+
+          <p class="text-gray-700 leading-relaxed mb-6">
+            私たちが長年培ってきた映像制作・編集のノウハウを、<br>
+            「わかりやすく」「実践的に」「挫折せずに」学べる形にしたのが、このプログラムです。
+          </p>
+
+          <p class="text-gray-800 font-bold text-lg text-center mt-8">
+            「わからない」を「できる」に変える。<br>
+            その第一歩を、私たちと一緒に踏み出しませんか？
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-16 md:py-20 bg-white">
+    <div class="container mx-auto px-4 max-w-4xl">
+      <h2 class="text-2xl md:text-4xl font-bold text-center mb-12">
+        よくある<span style="color: #7C3AED;">ご質問</span>
+      </h2>
+
+      <div class="space-y-4">
+
+        <details class="bg-gray-50 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+          <summary class="font-bold text-lg cursor-pointer text-gray-900">
+            Q. 全くの未経験ですが、大丈夫ですか？
+          </summary>
+          <div class="mt-4 text-gray-700 leading-relaxed border-t pt-4">
+            <p>A. はい、全く問題ありません。受講者の約70%が未経験からスタートしています。基礎から丁寧に指導しますので、安心してご受講ください。わからないことはいつでも質問できるサポート体制も整っています。</p>
+          </div>
+        </details>
+
+        <details class="bg-gray-50 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+          <summary class="font-bold text-lg cursor-pointer text-gray-900">
+            Q. 受講期間はどのくらいですか？
+          </summary>
+          <div class="mt-4 text-gray-700 leading-relaxed border-t pt-4">
+            <p>A. 月額定額制ですので、ご自身のペースで学習いただけます。最短1ヶ月から、じっくり学びたい方は数ヶ月継続されています。忙しい方でも無理なく続けられるのが特徴です。</p>
+          </div>
+        </details>
+
+        <details class="bg-gray-50 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+          <summary class="font-bold text-lg cursor-pointer text-gray-900">
+            Q. 複数の講座を同時に受講できますか？
+          </summary>
+          <div class="mt-4 text-gray-700 leading-relaxed border-t pt-4">
+            <p>A. はい、可能です。2講座以上を同時受講される場合は、特別割引もご用意しております。詳しくは公式サイトをご覧ください。</p>
+          </div>
+        </details>
+
+        <details class="bg-gray-50 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+          <summary class="font-bold text-lg cursor-pointer text-gray-900">
+            Q. オンラインのみでの受講ですか？
+          </summary>
+          <div class="mt-4 text-gray-700 leading-relaxed border-t pt-4">
+            <p>A. 基本はオンライン受講ですが、名古屋近郊の方は対面でのサポートも可能です。遠方の方もオンラインで完結できるよう、手厚いサポート体制を整えています。</p>
+          </div>
+        </details>
+
+        <details class="bg-gray-50 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+          <summary class="font-bold text-lg cursor-pointer text-gray-900">
+            Q. 途中で解約できますか？
+          </summary>
+          <div class="mt-4 text-gray-700 leading-relaxed border-t pt-4">
+            <p>A. はい、いつでも解約可能です（当月末での解約となります）。契約の縛りや違約金などは一切ございませんので、ご安心ください。</p>
+          </div>
+        </details>
+
+        <details class="bg-gray-50 rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+          <summary class="font-bold text-lg cursor-pointer text-gray-900">
+            Q. 法人向けの割引はありますか？
+          </summary>
+          <div class="mt-4 text-gray-700 leading-relaxed border-t pt-4">
+            <p>A. はい、複数名での受講や、長期契約の場合は法人割引をご用意しております。企業研修としてのご利用も多数実績がございます。詳細は公式サイトからお問い合わせください。</p>
+          </div>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="text-white py-12" style="background-color: #1A1A2E;">
+    <div class="container mx-auto px-4 max-w-5xl">
+
+      <!-- 会社情報 -->
+      <div class="text-center mb-8">
+        <h3 class="text-2xl font-bold mb-4">株式会社YOSUGA</h3>
+        <div class="text-gray-400 space-y-2">
+          <p>📍 所在地：愛知県名古屋市</p>
+          <p>🎬 事業内容：映像制作・編集、リスキリング支援</p>
+          <p>🌐 URL: <a href="http://www.yosuga.biz" class="hover:opacity-80 underline" style="color: #FCD34D;" target="_blank" rel="noopener">www.yosuga.biz</a></p>
+        </div>
+      </div>
+
+      <!-- 追伸 -->
+      <div class="border-t pt-8 mb-8" style="border-color: #2D2D44;">
+        <div class="max-w-3xl mx-auto">
+          <p class="text-lg font-bold mb-4" style="color: #FCD34D;">P.S.</p>
+          <p class="text-gray-300 leading-relaxed">
+            DX推進やリスキリングは「いつかやろう」と思っていても、なかなか始められないものです。<br>
+            しかし、始めるのが遅れるほど、競合との差は開いていきます。<br>
+            「わからない」を「できる」に変える第一歩を、今日踏み出してみませんか？<br>
+            詳しくは公式サイトをご覧ください。<br>
+            <strong class="text-white">皆様のご参加を、心よりお待ちしております。</strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- コピーライト -->
+      <div class="border-t pt-6 text-center" style="border-color: #2D2D44;">
+        <p class="text-gray-500 text-sm">
+          &copy; 2026 株式会社YOSUGA. All Rights Reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ページトップへ戻るボタン -->
+  <div class="fixed bottom-8 right-8">
+    <a href="#" class="text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg transition-all duration-200 hover:-translate-y-1" style="background-color: #7C3AED;">
+      ↑
+    </a>
+  </div>
+
+</body>
+</html>
